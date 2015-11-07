@@ -2,7 +2,7 @@
 body,header,nav,ul,li,h2,p,button,strong,span,aside,h3,time,footer,img{
     padding: 0;
     margin: 0;
-    font-family: "Adobe 黑体 Std R","Adobe Heiti Std R";
+    font-family: "Microsoft YaHei","Adobe 黑体 Std R","Adobe Heiti Std R";
 }
 
 body{
@@ -472,6 +472,7 @@ footer{
    // z-index: 1;
     margin-left: 20px;
     margin-bottom: 12px;
+    padding-left: 62px;
     width: 960px;
     height: 153px;
     background: url(../images/footer_bg.gif) repeat-x;
@@ -479,3 +480,57 @@ footer{
 }
 
 
+footer section{
+    float: left;
+    margin-top: 32px;
+    margin-right: 18px;
+    width: 267px;
+    //background: #ff0000;
+}
+
+footer h3{
+    //line-height: 16px;
+    //font-size: 26px;
+    color: white;
+    text-align: center;
+    //background: #0000ff;
+}
+
+footer ul{
+    margin-top: 12px;
+    //background: #ff0000;
+}
+
+footer li{
+    line-height: 16px;
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom: inset #b5b5b5 1px;
+    box-shadow: #7b7b7b 0 2px 0;
+}
+
+footer a{
+    color: #d7e2ea;
+}
+footer a:hover{
+    //color: #d7e2ea;
+    text-decoration: none;
+}
+
+footer p{
+    margin-top: 8px;
+    margin-bottom: 4px;
+    color: #d7e2ea;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+footer input[type="submit"]{
+    margin-top: 4px;
+    color: #d7e2ea;
+    border: none;
+    border-radius: 2px;
+    background: #363636;
+    box-shadow: #0e0e0e 0 0 1px 1px;
+}
