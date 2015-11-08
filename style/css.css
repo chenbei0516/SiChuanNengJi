@@ -531,6 +531,6 @@ footer input[type="submit"]{
     color: #d7e2ea;
     border: none;
     border-radius: 2px;
-    //background: #363636;
-    //box-shadow: #0e0e0e 0 0 1px 1px;
+    background: #363636;
+    box-shadow: #0e0e0e 0 0 1px 1px;
 }
