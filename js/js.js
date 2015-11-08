@@ -10,3 +10,11 @@
        // $nav_a.eq(i).css("backgroundImage","url(../images/nav_cur_bg.gif)");
     }
 });*/
+
+
+window.onload=initi;
+
+function initi()
+{
+    //var
+}
