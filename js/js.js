@@ -12,9 +12,30 @@
 });*/
 
 
-window.onload=initi;
-
-function initi()
-{
-    //var
-}
+//window.onload=function ()
+//{
+    var oSliderImg=document.getElementById('slider_img');
+    var oPrevBtn=document.getElementsByClassName('prev_img');
+    var oNextBtn=document.getElementsByClassName('next_img');
+    var i=0;
+    oPrevBtn.onclick=function(){
+        if(i<4&&i>0){
+            --i;
+        }
+        else if(i==0)
+        {
+            i=4;
+        }
+        oSliderImg.firstElementChild.src='images/slider'+ i.toString()+'.jpg';
+    }
+    oNextBtn.onclick=function(){
+        if(i<4&&i>=0){
+            ++i;
+        }
+        else if(i==4)
+        {
+            i=0;
+        }
+        oSliderImg.firstElementChild.src='images/slider'+ i.toString()+'.jpg';
+    }
+//};

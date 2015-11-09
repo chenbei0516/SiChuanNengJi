@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>四川能级科技有限公司</title>
     <link href="style/css.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
 <div id="wrapper">
@@ -26,10 +27,10 @@
         <div id="slider_img">
             <img src="images/slider1.jpg" alt="slider1" />
         </div>
-        <button class="prev_img">
+        <button class="prev_img" onclick="prev_img()"></button>
 
-        </button>
-        <button class="next_img">
+
+        <button class="next_img" onclick="next_img()">
 
         </button>
         <div class="text">
@@ -124,6 +125,35 @@
     </footer>
 </div>
 <!--<script src="js/jquery-2.1.4.min.js" rel="script" type="text/javascript"></script>
-<script src="js/js.js"  rel="script" type="text/javascript"></script>-->
+<script src="js/js.js"></script>-->
+<script>
+    window.onload=function(){
+        var oSliderImg=document.getElementById('slider_img');
+        var i=0;
+
+    }
+    function next_img(){
+        if(i<4&&i>0){
+            --i;
+        }
+        else if(i==0)
+        {
+            i=4;
+        }
+        oSliderImg.firstElementChild.src='images/slider'+ i.toString()+'.jpg';
+    }
+
+    function prev_img(){
+        if(i<4&&i>=0){
+            ++i;
+        }
+        else if(i==4)
+        {
+            i=0;
+        }
+        oSliderImg.firstElementChild.src='images/slider'+ i.toString()+'.jpg';
+    }
+
+</script>
 </body>
 </html>

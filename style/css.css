@@ -525,7 +525,7 @@ footer a:hover{
 
 footer p{
     margin-top: 12px;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
     color: #d7e2ea;
     font-size: 14px;
     font-weight: bold;
@@ -540,7 +540,7 @@ footer input[type="search"]{
 
 footer input[type="submit"]{
 
-    margin-top: 4px;
+    margin-top: 6px;
     color: #d7e2ea;
     border: none;
     border-radius: 2px;
