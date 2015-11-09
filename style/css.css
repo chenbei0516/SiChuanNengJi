@@ -509,7 +509,7 @@ footer li{
     line-height: 16px;
     font-weight: bold;
     font-size: 12px;
-    //list-style: url(../images/footer_li_bg.gif);
+    list-style: url(../images/footer_li_bg.gif);
     //list-style-position: inside;
     border-bottom: inset #b5b5b5 1px;
     box-shadow: #7b7b7b 0 2px 0;
@@ -551,15 +551,15 @@ footer input[type="submit"]{
 footer .recent_p{
     //background: #f00;
     padding-left: 98px;
-    //background: url(../images/footer_ico_bg.gif) no-repeat 78px 5px;
+    background: url(../images/footer_ico_bg.gif) no-repeat 78px 5px;
 }
 
 footer .recent_c{
     padding-left: 82px;
-    //background: url(../images/footer_ico_bg.gif) no-repeat 54px -17px;
+    background: url(../images/footer_ico_bg.gif) no-repeat 54px -17px;
 }
 
 footer .search_f{
     padding-left: 80px;
-    //background: url(../images/footer_ico_bg.gif) no-repeat 54px -39px;
+    background: url(../images/footer_ico_bg.gif) no-repeat 54px -39px;
 }
