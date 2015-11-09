@@ -2,7 +2,7 @@
 body,header,nav,ul,li,h2,p,button,strong,span,aside,h3,time,footer,img{
     padding: 0;
     margin: 0;
-    font-family: "Microsoft YaHei","Adobe 黑体 Std R","Adobe Heiti Std R";
+    font-family: "Microsoft YaHei",serif,sans-serif;
 }
 
 body{

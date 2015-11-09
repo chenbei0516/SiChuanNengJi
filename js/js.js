@@ -12,13 +12,18 @@
 });*/
 
 
-//window.onload=function ()
+window.onload=initAll;
+var i=0;
+var oSliderImg=document.getElementById('slider_img');
+function initAll(){
+    //var oSliderImg=document.getElementById('slider_img');
+    document.getElementsByClassName('prev_img').onclick=prev_img;
+    document.getElementsByClassName('next_img').onclick=next_img;
+
+}
 //{
-    var oSliderImg=document.getElementById('slider_img');
-    var oPrevBtn=document.getElementsByClassName('prev_img');
-    var oNextBtn=document.getElementsByClassName('next_img');
-    var i=0;
-    oPrevBtn.onclick=function(){
+
+function next_img(){
         if(i<4&&i>0){
             --i;
         }
@@ -28,7 +33,7 @@
         }
         oSliderImg.firstElementChild.src='images/slider'+ i.toString()+'.jpg';
     }
-    oNextBtn.onclick=function(){
+function prev_img(){
         if(i<4&&i>=0){
             ++i;
         }
