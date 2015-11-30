@@ -50,9 +50,28 @@ function next_img(){
 
 
 $(document).ready(function(){
+
+    NengJi.initNav();//导航栏效果
+    NengJi.initSlider();//图片翻转效果
+
+});
+
+NengJi={};
+
+NengJi.initNav=function() {
+    $('nav > ul > li').mouseenter(function()
+    {
+        $(this).find('ul').stop().slideDown(200);
+    }).mouseleave(function()
+    {
+        $(this).find('ul').stop().slideUp(200);
+    });
+};
+
+NengJi.initSlider=function(){
     var lenImg=4;
     var i=1;
-    var $oSliderImg=$('#slider_img img');
+    var $oSliderImg=$("#slider_img img");
     var $oPrevImg=$('.prev_img')[0];
     var $oNextImg=$('.next_img')[0];
 
@@ -61,13 +80,13 @@ $(document).ready(function(){
         if(i==0){
             i=lenImg;
         }
-        $oSliderImg.attr('src','images/slider'+ i.toString()+'.jpg');
-    }
+        $oSliderImg.attr({'src':'images/slider'+ i.toString()+'.jpg','alt':'slider'+ i.toString()});
+    };
     $oNextImg.onclick=function(){
         ++i;
         if(i==lenImg+1){
             i=1;
         }
-        $oSliderImg.attr('src','images/slider'+ i.toString()+'.jpg');
-    }
-});
+        $oSliderImg.attr({'src':'images/slider'+ i.toString()+'.jpg','alt':'slider'+ i.toString()});
+    };
+};
