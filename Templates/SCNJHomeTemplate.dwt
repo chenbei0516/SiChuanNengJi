@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/Templates/SCNJHomeTemplate.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- InstanceBeginEditable name="doctitle" -->
+    <!-- TemplateBeginEditable name="doctitle" -->
     <title>四川能级科技有限公司</title>
-    <!-- InstanceEndEditable -->
-    <link href="style/css.css" rel="stylesheet" type="text/css" />
-    <!-- InstanceBeginEditable name="head" -->
-    <!-- InstanceEndEditable -->
+    <!-- TemplateEndEditable -->
+    <link href="../style/css.css" rel="stylesheet" type="text/css" />
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
 </head>
 <body>
 <div class="container">
@@ -63,7 +63,7 @@
     </nav>
     <div id="slider">
         <div id="slider_img">
-            <img src="images/slider1.jpg" alt="slider1" />
+            <img src="../images/slider1.jpg" alt="slider1" />
         </div>
         <button class="prev_img"></button>
 
@@ -78,77 +78,11 @@
             <button>了解更多</button>
         </div>
     </div>
-    <!-- InstanceBeginEditable name="EditWrapper" -->
+    <!-- TemplateBeginEditable name="EditWrapper" -->
     <div class="wrapper clear">
-        <div class="home_list">
-            <ul>
-                <li><a href="#"><img src="images/home_list1.png" /></a></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li><button>了解更多</button></li>
-            </ul>
-            <ul>
-                <li><a href="#"><img src="images/home_list2.png" /></a></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li><button>了解更多</button></li>
-            </ul>
-            <ul>
-                <li><a href="#"><img src="images/home_list3.png" /></a></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li><button>了解更多</button></li>
-            </ul>
-
-        </div>
-        <div class="divider clear">
-        </div>
-
-        <div class="home_detail clear">
-            <section>
-                <article class="text">
-                    <h2>解决方案</h2>
-                    <p>支持动态设置案列类别，类别支持图片设置及简介。每类别下有多条新闻，内容包含：文字、图片、视频等素材。</p>
-                </article>
-                <article>
-                    <img src="images/home_detail1.png" alt="solution"/>
-                </article>
-            </section>
-            <section>
-                <article>
-                    <img src="images/home_detail2.png" alt="support"/>
-                </article>
-
-                <article class="text">
-                    <h2>服务与支持</h2>
-                    <p>支持动态设置案列类别，类别支持图片设置及简介。每类别下有多条新闻，内容包含：文字、图片、视频等素材。</p>
-                </article>
-
-            </section>
-            <section>
-                <article class="text">
-                    <h2>关于我们</h2>
-                    <p>支持动态设置案列类别，类别支持图片设置及简介。每类别下有多条新闻，内容包含：文字、图片、视频等素材。</p>
-                </article>
-                <article>
-                    <img src="images/home_detail3.png" alt="about us"/>
-                </article>
-            </section>
-            <section>
-                <article>
-                    <img src="images/home_detail4.png" alt="news"/>
-                </article>
-                <article class="text">
-                    <h2>新闻资讯</h2>
-                    <p>支持动态设置案列类别，类别支持图片设置及简介。每类别下有多条新闻，内容包含：文字、图片、视频等素材。</p>
-                </article>
-            </section>
-        </div>
+    	
     </div>
-    <!-- InstanceEndEditable -->
+    <!-- TemplateEndEditable -->
     <footer>
         <section>
             <h3 class="recent_p">Recent Posts</h3>
@@ -173,9 +107,7 @@
             <p>Search for &#58</p>
             <form action="#">
                 <p class="news_first_ul">
-                    <label for="search">
-                        <input type="search" id="search"/>
-                    </label>
+                  <input type="search"/>
                   <br />
                   <input type="submit" value="Search"/>
                 </p>
@@ -185,7 +117,7 @@
     </footer>
 </div>
 
-<script src="js/jquery-2.1.4.min.js" rel="script" type="text/javascript"></script>
-<script src="js/js.js"></script>
+<script src="../js/jquery-2.1.4.min.js" rel="script" type="text/javascript"></script>
+<script src="../js/js.js"></script>
 </body>
-<!-- InstanceEnd --></html>
+</html>
